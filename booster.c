@@ -33,8 +33,6 @@ void afficher_titre(const char* titre) {
 }
 
 
-
-
 void nettoyer(char *str) {
     str[strcspn(str, "\n")] = '\0';
 }
@@ -388,8 +386,6 @@ void categorie(noeud** root, const char** categorieNom) {
             *categorieNom = NULL;
     }
 }
-
-
 
 void menu_principal(noeud* root, const char* categorieNom) {
     int choix;
